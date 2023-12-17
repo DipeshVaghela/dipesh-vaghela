@@ -1,0 +1,83 @@
+<!-- Left Wrapper -->
+<div class="hl-form">
+
+    <!-- Loan Amount Text -->
+    <div class="hl-amount-div">
+        <label class="hl-amount-label" for="hl-amount">Enter Principle Amount :</label>
+        <input type="number" id="hl-amount" name="hl-amount" class="hl-amount-input" min="0" max="1000000"
+            [(ngModel)]="homeLoanInput.enteredPrincipleAmount" />
+    </div>
+
+    <!-- Loan Amount Slider -->
+    <div class="hl-slider-div">
+        <input type="range" min="0" max="10000000" name="hl-amount-slider" class="hl-slider" id="hl-amount-slider"
+            [(ngModel)]="homeLoanInput.enteredPrincipleAmount">
+        <div class="hl-slider-label">
+            <span (click)="homeLoanInput.enteredPrincipleAmount = 0">0L</span>
+            <span (click)="homeLoanInput.enteredPrincipleAmount = 1000000">10L</span>
+            <span (click)="homeLoanInput.enteredPrincipleAmount = 2000000">20L</span>
+            <span (click)="homeLoanInput.enteredPrincipleAmount = 3000000">30L</span>
+            <span (click)="homeLoanInput.enteredPrincipleAmount = 4000000">40L</span>
+            <span (click)="homeLoanInput.enteredPrincipleAmount = 5000000">50L</span>
+            <span (click)="homeLoanInput.enteredPrincipleAmount = 6000000">60L</span>
+            <span (click)="homeLoanInput.enteredPrincipleAmount = 7000000">70L</span>
+            <span (click)="homeLoanInput.enteredPrincipleAmount = 8000000">80L</span>
+            <span (click)="homeLoanInput.enteredPrincipleAmount = 9000000">90L</span>
+            <span (click)="homeLoanInput.enteredPrincipleAmount = 10000000">1Cr</span>
+        </div>
+    </div>
+
+    <!-- Loan Interest Rate Text -->
+    <div class="hl-interest-div">
+        <label class="hl-interest-label" for="hl-interest">Enter Interest Rate :</label>
+        <input type="number" id="hl-interest" name="hl-interest" class="hl-interest-input" min="0" max="100"
+            [(ngModel)]="homeLoanInput.enteredInterestRate" />
+    </div>
+
+    <!-- Loan Interest Rate Slider -->
+    <div class="hl-slider-div">
+        <input type="range" min="0" max="20" name="hl-interest-slider" class="hl-slider" id="hl-interest-slider"
+            [(ngModel)]="homeLoanInput.enteredInterestRate">
+        <div class="hl-slider-label">
+            <span (click)="homeLoanInput.enteredInterestRate = 0">0%</span>
+            <span (click)="homeLoanInput.enteredInterestRate = 2">2%</span>
+            <span (click)="homeLoanInput.enteredInterestRate = 4">4%</span>
+            <span (click)="homeLoanInput.enteredInterestRate = 6">6%</span>
+            <span (click)="homeLoanInput.enteredInterestRate = 8">8%</span>
+            <span (click)="homeLoanInput.enteredInterestRate = 10">10%</span>
+            <span (click)="homeLoanInput.enteredInterestRate = 12">12%</span>
+            <span (click)="homeLoanInput.enteredInterestRate = 14">14%</span>
+            <span (click)="homeLoanInput.enteredInterestRate = 16">16%</span>
+            <span (click)="homeLoanInput.enteredInterestRate = 18">18%</span>
+            <span (click)="homeLoanInput.enteredInterestRate = 20">20%</span>
+        </div>
+    </div>
+
+    <!-- Loan Tenure Rate Text -->
+    <div class="hl-tenure-div">
+        <label class="hl-tenure-label" for="hl-tenure">Enter Tenure :</label>
+        <input type="number" id="hl-tenure" name="hl-tenure" class="hl-tenure-input" min="0" max="100"
+            [(ngModel)]="homeLoanInput.enteredTenure" />
+    </div>
+
+    <!-- Loan Tenure Rate Slider -->
+    <div class="hl-slider-div">
+        <input type="range" min="0" max="100" name="hl-tenure-slider" class="hl-slider"
+            [(ngModel)]="homeLoanInput.enteredTenure" id="hl-tenure-slider">
+
+        <div class="hl-slider-label">
+            <span (click)="homeLoanInput.enteredTenure = 0">0</span>
+            <span (click)="homeLoanInput.enteredTenure = 10">10</span>
+            <span (click)="homeLoanInput.enteredTenure = 20">20</span>
+            <span (click)="homeLoanInput.enteredTenure = 30">30</span>
+            <span (click)="homeLoanInput.enteredTenure = 40">40</span>
+            <span (click)="homeLoanInput.enteredTenure = 50">50</span>
+            <span (click)="homeLoanInput.enteredTenure = 60">60</span>
+            <span (click)="homeLoanInput.enteredTenure = 70">70</span>
+            <span (click)="homeLoanInput.enteredTenure = 80">80</span>
+            <span (click)="homeLoanInput.enteredTenure = 90">90</span>
+            <span (click)="homeLoanInput.enteredTenure = 100">100</span>
+        </div>
+    </div>
+
+</div>

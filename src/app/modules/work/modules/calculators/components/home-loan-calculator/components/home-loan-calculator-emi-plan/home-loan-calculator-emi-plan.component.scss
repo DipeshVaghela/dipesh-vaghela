@@ -1,0 +1,22 @@
+.schedule-emi-table {
+  border-collapse: collapse;
+  width: 100%;
+  position: relative;
+
+  th {
+    position: sticky;
+    top: 55px;
+    z-index: 1;
+
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+  }
+
+  th,
+  td {
+    border: 1px solid white;
+    padding: 0.5em 1em;
+    text-align: center;
+  }
+}

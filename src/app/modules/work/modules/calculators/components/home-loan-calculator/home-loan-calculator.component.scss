@@ -1,0 +1,36 @@
+.hl {
+  border: 1px solid white;
+  padding: 2em;
+  margin: 2em;
+}
+
+.hl-wrapper {
+  border: 1px solid white;
+  padding: 2em;
+}
+
+.hl-top-wrapper {
+  width: 100%;
+  display: flex;
+
+  padding: 2em;
+  border: 1px solid white;
+}
+
+.hl-top-left-wrapper {
+  width: 40%;
+  border: 1px solid white;
+  padding: 2em;
+}
+
+.hl-top-right-wrapper {
+  width: 60%;
+  border: 1px solid white;
+  padding: 2em;
+}
+
+.hl-bottom-wrapper {
+  border: 1px solid white;
+  margin-top: 5em;
+  padding: 2em;
+}

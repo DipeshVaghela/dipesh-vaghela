@@ -1,0 +1,20 @@
+<table class="schedule-emi-table" *ngIf="!anyFieldInvalid()">
+    <thead>
+        <th>Payment No</th>
+        <th>Opening Balance</th>
+        <th>EMI</th>
+        <th>Principle</th>
+        <th>Interest</th>
+        <th>Closing Balance</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let emi of generateEmiSchedule()">
+            <td>{{emi.paymentNo}}</td>
+            <td>{{emi.openingBalance}}</td>
+            <td>{{emi.emi}}</td>
+            <td>{{emi.principle}}</td>
+            <td>{{emi.interest}}</td>
+            <td>{{emi.closingBalance}}</td>
+        </tr>
+    </tbody>
+</table>

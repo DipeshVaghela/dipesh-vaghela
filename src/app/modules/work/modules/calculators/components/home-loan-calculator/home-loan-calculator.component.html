@@ -1,0 +1,26 @@
+<div class="hl">
+    <div class="hl-wrapper">
+
+        <!-- Top Wrapper -->
+        <div class="hl-top-wrapper">
+
+            <!-- Left Wrapper -->
+            <div class="hl-top-left-wrapper">
+                <app-home-loan-calculator-form [(homeLoanInput)]="homeLoanInput"></app-home-loan-calculator-form>
+            </div>
+
+            <!-- Right Wrapper -->
+            <div class="hl-top-right-wrapper">
+                <app-home-loan-calculator-statistic
+                    [homeLoanInput]="homeLoanInput"></app-home-loan-calculator-statistic>
+            </div>
+
+        </div>
+
+        <!-- Bottom Wrapper -->
+        <div class="hl-bottom-wrapper">
+            <app-home-loan-calculator-emi-plan [homeLoanInput]="homeLoanInput"></app-home-loan-calculator-emi-plan>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,77 @@
+.hl-amount-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    .hl-amount-label {
+      width: 50%;
+    }
+  
+    .hl-amount-input {
+      width: 50%;
+      outline: none;
+      padding: 0.5em 1em;
+    }
+  }
+  
+  .hl-interest-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+  
+    .hl-interest-label {
+      width: 50%;
+    }
+  
+    .hl-interest-input {
+      width: 50%;
+      outline: none;
+      padding: 0.5em 1em;
+    }
+  }
+  
+  .hl-tenure-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    margin-top: 2em;
+  
+    .hl-tenure-label {
+      width: 50%;
+    }
+  
+    .hl-tenure-input {
+      width: 50%;
+  
+      outline: none;
+      padding: 0.5em 1em;
+    }
+  }
+  
+  .hl-slider-div {
+    margin-top: 1em;
+    text-align: center;
+  
+    .hl-slider {
+      width: calc(100% - 1em);
+    }
+  }
+  
+  .hl-slider-label {
+    display: flex;
+    justify-content: space-between;
+  
+    span {
+      width: 2em;
+      text-align: center;
+      cursor: pointer;
+      transition: all 200ms;
+    }
+  
+    span:hover {
+      font-weight: bold;
+    }
+  }
+  

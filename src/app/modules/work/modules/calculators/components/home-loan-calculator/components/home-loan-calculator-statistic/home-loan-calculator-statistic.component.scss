@@ -1,0 +1,22 @@
+.hl-statistic {
+    display: flex;
+    padding: 2em;
+    border: 1px solid white;
+  
+    .hl-statistic-left {
+      width: 50%;
+      padding: 2em;
+      border-right: 1px solid white;
+  
+      .hl-statistic-div {
+        text-align: center;
+        margin: 1em 0em;
+      }
+    }
+  
+    .hl-statistic-right {
+      width: 50%;
+      padding: 2em;
+    }
+  }
+  
